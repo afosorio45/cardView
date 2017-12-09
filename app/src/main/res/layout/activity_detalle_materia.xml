@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewMateria"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/titleMateria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewMateria"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="texto"
+            android:textColor="#222"
+            android:textStyle="bold"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleMateria"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Descripción del la materia"
+            android:textColor="#666"
+            android:textSize="14dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tutores"
+            android:layout_below="@+id/description"
+            android:background="@android:color/transparent"
+            android:textColor="#00BCD4"
+            />
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

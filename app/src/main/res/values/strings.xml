@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CardView</string>
+    <string name="title_activity_tutores">TutoresActivity</string>
+    <string name="title_activity_tutor">Tutor</string>
+</resources>
